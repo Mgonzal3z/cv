@@ -7,7 +7,7 @@ import { InfoComponent } from './info/info.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { XpComponent } from './xp/xp.component';
 import { ContactComponent } from './contact/contact.component';
-import { FooterComponent } from './footer/footer.component';
+import { MobileComponent } from './mobile/mobile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     XpComponent,
     ContactComponent,
-    FooterComponent
+    MobileComponent
   ],
   imports: [
     BrowserModule
