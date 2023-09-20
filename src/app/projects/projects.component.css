@@ -137,7 +137,7 @@
 @media (min-width: 1280px) {
 
   .featured{
-    padding-left: 5em;
+    padding-left: 6em;
   }
   .featured__subtitle {
     font-size: var(--size-xl);
@@ -159,6 +159,6 @@
   }
   .featured__img-container{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding-right: 5em;
+    padding-right: 9em;
     }
 }

@@ -63,10 +63,12 @@
 .about__subtitle{
   font-size: var(--size-sm);
   color:var(--clr-slate400);
+  padding-left: 0.5em;
 }
 
 .about__ul-container {
   display: flex;
+  padding-left: 2em;
 }
 
 .about__ul{
