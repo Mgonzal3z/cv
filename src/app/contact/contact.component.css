@@ -103,7 +103,7 @@
   }
 
   .contact__btn{
-    font-size: var(--size-xl);
+    font-size: var(--size-base);
   }
 
 }
