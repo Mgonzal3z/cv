@@ -27,14 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.style.overflowY = 'auto';
     }
 
-    mobileLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        isMobileNavOpen = false;
-        mobileNav.style.display = 'none';
-        document.body.style.overflowY = 'auto';
-      })
-    });
-
+  });
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      isMobileNavOpen = false;
+      mobileNav.style.display = 'none';
+      document.body.style.overflowY = 'auto';
+    })
   });
 
   const themeToggleBtns = document.querySelectorAll('#theme-toggle');
@@ -60,4 +59,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
-

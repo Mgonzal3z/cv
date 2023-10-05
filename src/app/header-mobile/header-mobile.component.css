@@ -67,7 +67,8 @@
   }
 
   .header__sun{
-    display: block;
+    display: -webkit-flex(block);
+
     color: var(--clr-slate600);
     width: var(--size-base);
     height: var(--size-base);
