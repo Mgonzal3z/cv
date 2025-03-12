@@ -67,8 +67,8 @@
   }
 
   .header__sun{
-    display: -webkit-flex(block);
-
+    display: -webkit-block;
+    display: block;
     color: var(--clr-slate600);
     width: var(--size-base);
     height: var(--size-base);
@@ -109,6 +109,7 @@
 .mobile-nav__menu{
   list-style: none;
   padding: 0;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
