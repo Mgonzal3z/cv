@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "cv",
+    "public": "dist/cv",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
